@@ -10,6 +10,7 @@ Step 3.
 Add these lines to your .pro file
 
 QT += multimedia
+
 contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
     ANDROID_EXTRA_LIBS = \
 $$PWD/libanw.14.so \
